@@ -141,7 +141,7 @@ def isCollide(playerX, playerY, upperpipe,lowerpipe):
             return True
 
     return False
-
+#3
 def getrandompipe():
     pipeheight = game_sprite["pipe"][0].get_height()
     offset = screenheight/3
